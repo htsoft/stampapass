@@ -1,0 +1,17 @@
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.csproj.AssemblyReference.cache
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.Form1.resources
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.Properties.Resources.resources
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.csproj.GenerateResource.cache
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.AssemblyInfoInputs.cache
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.AssemblyInfo.cs
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.csproj.CoreCompileInputs.cache
+D:\projects\stampapass\Frontend\StampaPass\bin\Debug\netcoreapp3.1\StampaPass.exe
+D:\projects\stampapass\Frontend\StampaPass\bin\Debug\netcoreapp3.1\StampaPass.deps.json
+D:\projects\stampapass\Frontend\StampaPass\bin\Debug\netcoreapp3.1\StampaPass.runtimeconfig.json
+D:\projects\stampapass\Frontend\StampaPass\bin\Debug\netcoreapp3.1\StampaPass.runtimeconfig.dev.json
+D:\projects\stampapass\Frontend\StampaPass\bin\Debug\netcoreapp3.1\StampaPass.dll
+D:\projects\stampapass\Frontend\StampaPass\bin\Debug\netcoreapp3.1\StampaPass.pdb
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.dll
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.pdb
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.genruntimeconfig.cache
