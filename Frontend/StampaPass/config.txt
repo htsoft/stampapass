@@ -1,0 +1,7 @@
+﻿baseurl=http://localhost:8090
+nomeposx=100
+nomeposy=200
+badgeposx=100
+badgeposy=500
+dataposx=100
+dataposy=550

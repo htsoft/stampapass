@@ -27,7 +27,6 @@ class DBGuestRepository implements GuestRepository
      */
     public function getAll(): array
     {
-        // Recupera tutti gli incontri
         $retData = array();
         $query = 'SELECT id, cognome, nome, badge, status, dataarrivo FROM guests';
         $stmt = $this->connection->prepare($query);
@@ -41,10 +40,10 @@ class DBGuestRepository implements GuestRepository
         return $retData;
     }
 
-        /**
+    /**
      * {@inheritdoc}
      */
-    public function get(string $badge): Incontro
+    public function get(string $badge): Guest
     {
         $retData = null;
         $query = 'SELECT id, cognome, nome, badge, status, dataarrivo FROM guests WHERE badge=:badge';
@@ -85,7 +84,7 @@ class DBGuestRepository implements GuestRepository
         $result = null;
         $query = "UPDATE guests SET cognome=:cognome, nome=:nome, badge=:badge, status=:status WHERE badge=:badge";
         $stmt = $this->connection->prepare($query);
-        $params = array(":cognome" => $guest->getCognome(), ":nome" => $guest->geetNome(), ":badge" => $guest->getBadge(), ":status" => $guest->getStatus(), ":badge" => $guest->getBadge());
+        $params = array(":cognome" => $guest->getCognome(), ":nome" => $guest->getNome(), ":badge" => $guest->getBadge(), ":status" => $guest->getStatus(), ":badge" => $guest->getBadge());
         if ($stmt->execute($params)) {
             $result = $this->get($guest->getBadge());
         } else {
@@ -101,9 +100,10 @@ class DBGuestRepository implements GuestRepository
     {
         $result = null;
         $query = "UPDATE guests SET status=1 WHERE badge=:badge";
+        $stmt = $this->connection->prepare($query);
         $params = array(":badge" => $badge);
         if ($stmt->execute($params)) {
-            $result = $this->get($guest->getBadge());
+            $result = $this->get($badge);
         } else {
             throw new GuestNotFoundException();
         }

@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 use App\Application\Settings\SettingsInterface;
@@ -26,9 +27,9 @@ return function (ContainerBuilder $containerBuilder) {
             return $logger;
         },
         PDO::class => function (ContainerInterface $c) {
-            $settings = $c->get('settings');
+            $settings = $c->get(SettingsInterface::class);
 
-            $dbSettings = $settings['db'];
+            $dbSettings = $settings->get('db');
             $host = $dbSettings['host'];
             $driver = $dbSettings['driver'];
             $dbname = $dbSettings['database'];

@@ -1,5 +1,4 @@
 D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.csproj.AssemblyReference.cache
-D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.Form1.resources
 D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.Properties.Resources.resources
 D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.csproj.GenerateResource.cache
 D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,3 +14,6 @@ D:\projects\stampapass\Frontend\StampaPass\bin\Debug\netcoreapp3.1\StampaPass.pd
 D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.dll
 D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.pdb
 D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.genruntimeconfig.cache
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.StampaPass.resources
+D:\projects\stampapass\Frontend\StampaPass\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\projects\stampapass\Frontend\StampaPass\obj\Debug\netcoreapp3.1\StampaPass.csproj.CopyComplete

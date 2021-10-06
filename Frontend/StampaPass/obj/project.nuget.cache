@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "W/seyvVQpxpo0y34nRqZvo/kANWs/5n71PnRHi9OlPv05aLOTfvkqqoZ0EOpxEI60Hs+CwPQ2thnFsCW1hV5ig==",
+  "dgSpecHash": "xZQk3FOhUZui8JDnBdl0rfWVwc0Wmjr3tzixEjEL56NfzAIeBq3z2g//5YfcgTgbipBcNOGbHGlyv/VphoMr4A==",
   "success": true,
   "projectFilePath": "D:\\projects\\stampapass\\Frontend\\StampaPass\\StampaPass.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Roberto Scarciello\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
